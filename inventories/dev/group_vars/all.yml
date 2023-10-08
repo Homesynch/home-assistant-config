@@ -1,0 +1,9 @@
+---
+# Do not delete!
+# Common variables for all groups in dev environment
+
+# SSH Connection
+ansible_connection: ssh
+ansible_port: 2222
+ansible_user: root
+ansible_ssh_private_key_file: "{{ playbook_dir }}/../docker/keys/docker"

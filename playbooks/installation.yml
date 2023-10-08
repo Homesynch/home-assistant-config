@@ -1,0 +1,7 @@
+---
+- name: Playbook for the installation of Home Assistant
+  hosts: home_assistant
+  become: true
+  become_method: ansible.builtin.sudo
+  roles:
+   - home-assistant-ansible

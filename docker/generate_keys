@@ -1,0 +1,3 @@
+#!/bin/bash
+mkdir -p $(dirname $0)/keys
+ssh-keygen -t rsa -f "$(dirname $0)/keys/docker" -P ""
