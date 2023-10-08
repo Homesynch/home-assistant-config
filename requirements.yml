@@ -1,0 +1,8 @@
+---
+# Defines roles and/or collections required to run the playbooks
+
+roles:
+  - name: home-assistant-ansible
+    src: https://github.com/home-assistant-ecosystem/home-assistant-ansible
+    scm: git
+    version: master

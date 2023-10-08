@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Install the required roles under ./playbooks/roles directory from requirements file
+ansible-galaxy install -p playbooks/roles -r requirements.yml

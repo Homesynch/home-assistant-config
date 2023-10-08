@@ -1,0 +1,12 @@
+---
+# Deploys a dev environment for testing ansible execution.
+# Relies on docker and docker-compose to be installed
+
+services:
+  ubuntu:
+    build: .
+    hostname: ubuntu-dev-ansible
+    container_name: ubuntu-dev-ansible
+    ports:
+      - "2222:22"
+      - "8123:8123"
